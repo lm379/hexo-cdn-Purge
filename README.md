@@ -15,7 +15,7 @@
 回到hexo博客根目录，打开Git Bash执行
 
 ```bash
-npm install hexo-tencent-cdn-Purge --save
+npm install hexo-cdn-Purge --save
 ```
 
 然后在站点的_config.yml中添加配置
