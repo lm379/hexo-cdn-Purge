@@ -1,14 +1,14 @@
 {
-  "name": "hexo-tencent-cdn-purge",
-  "version": "1.0.0",
-  "description": "A Tencent Cloud cdn refresh plugin",
+  "name": "hexo-cdn-purge",
+  "version": "1.0.1",
+  "description": "A Tencent Cloud cdn refresh plugin for Hexo Blog",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lm379/hexo-tencent-cdn-Purge.git"
+    "url": "git+https://github.com/lm379/hexo-cdn-Purge.git"
   },
   "keywords": [
     "hexo",
@@ -19,7 +19,7 @@
   "author": "lm379",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lm379/hexo-tencent-cdn-Purge/issues"
+    "url": "https://github.com/lm379/hexo-cdn-Purge/issues"
   },
   "homepage": "https://lm379.cn/",
   "dependencies": {

@@ -8,26 +8,26 @@
 
 ### 使用方法
 
-进入腾讯云后台创建API密钥（建议使用子用户密钥）  
+进入腾讯云后台创建API密钥（建议使用子用户密钥）
 
 [https://console.cloud.tencent.com/cam/capi](https://console.cloud.tencent.com/cam/capi)
 
 回到hexo博客根目录，打开Git Bash执行
 
 ```bash
-npm install hexo-tencent-cdn-Purge --save
+npm install hexo-cdn-Purge --save
 ```
 
 然后在站点的_config.yml中添加配置
+
 > 注意不是主题的_config.yml
 
 ```ymal
-
 tencent_cdn:
  secretId: your secretId # 你在https://console.cloud.tencent.com/cam/capi 获取到的SecretId
  secretKey: your secretKey # 你在https://console.cloud.tencent.com/cam/capi 获取到的SecretKey
  FlushType: flush # 刷新方式,flush为只刷新变更资源,delete为刷新网站下的全部缓存
- timer: 100 # 延时器,单位为毫秒,延时多长时间再执行刷新命令,不需要的填写0
+ timer: 60000 # 延时器,单位为毫秒,延时多长时间再执行刷新命令,不需要的填写0
  PurgePath: https://www.example.com # 需要刷新的链接，不支持多个，必须有http或者https协议头
 ```
 
@@ -39,7 +39,7 @@ deploy字段最后面添加，如下图
 
 ![1716537790437](image/README/1716537790437.png)
 
-后续在执行`hexo d`的时候就会同时对CDN进行刷新
+后续在执行 `hexo d`的时候就会同时对CDN进行刷新
 
 ### 效果图
 
