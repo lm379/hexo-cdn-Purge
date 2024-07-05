@@ -1,7 +1,7 @@
 {
-  "name": "hexo-cdn-purge",
-  "version": "1.0.1",
-  "description": "A Tencent Cloud cdn refresh plugin for Hexo Blog",
+  "name": "hexo-tencent-cdn-purge",
+  "version": "1.0.0",
+  "description": "A Tencent Cloud cdn refresh plugin",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
